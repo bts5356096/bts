@@ -12,13 +12,22 @@
 </style>
 </head>
 
+<scrpit>
+document.querySelectorAll("img").forEach(img => {
+  img.onerror = function () {
+    this.onerror = null;
+    this.src = "https://res.cloudinary.com/dop362bvg/image/upload/v1773020658/" + this.getAttribute("src");
+  };
+});
+</scrpit>  
+  
 <body bgcolor="#CCCCCC">
 <table width="600" border="0" align="center">
   <tr> 
     <td>&nbsp;</td>
   </tr>
   <tr> 
-    <td><img src="https://res.cloudinary.com/dop362bvg/image/upload/v1773020658/images/20200610.jpg" width="598" height="250"></td>
+    <td><img src="images/20200610.jpg" width="598" height="250"></td>
   </tr>
   <tr> 
     <td class="program"><div align="center"><a href="home.htm">→直接進入←</a></div></td>
@@ -39,4 +48,5 @@
 </table>
 </body>
 </html>
+
 
