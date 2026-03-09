@@ -1,0 +1,150 @@
+/* Basic sample */
+  .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }
+
+		 @media screen and (max-width: 1000px) {
+            img.bg {
+                left: 50%;
+                margin-left: -500px;
+            }
+        }
+
+
+
+
+.demo{
+  background-color:#ffffff;
+  background-color:rgba(255,255,255,0.5); 
+	box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	padding:5px;
+	font-size: 15;
+}
+
+
+
+.Abox{
+  width: 600px;
+  height: 250px;
+  border: 1px solid #f00;
+  margin: auto;
+  display: flex;
+}
+.content{
+  width: 500px;
+  background-color:#ffffff;
+  background-color:rgba(255,255,255,0.5); 
+box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+padding:5px;
+font-size: 20;
+  margin: auto;
+}
+
+.number{font-weight:bold;
+		color:#3399ff;
+		}
+
+
+
+.LittleTitle{font-weight:bold;
+			color:#ff0000;
+			font-size: 20px;
+			font-size: x-large;
+			font-weight:900; 
+			}
+
+
+
+.LittleTitle2{font-weight:bold;
+			color:#0099ff;
+			font-size: 20px;
+			font-size: x-large;
+			font-weight:1000; 
+			}
+
+.LittleTitle3{font-weight:bold;
+			color:#cc0000;
+			font-size: 20px;
+			text-shadow:3px 5px 3px #cccccc;
+			}
+
+
+
+
+.LittleTitle4{font-weight:bold;
+			color:#cc0000;
+			font-size: 16px;
+			font-size: x-large;
+			font-weight:900;
+
+			}
+
+
+.LittleTitle5{font-weight:bold;
+			color:#ff0000;
+			font-size: 30px;
+
+			font-weight:900; 
+			}
+
+
+
+#DIV2{
+
+width:750px;
+background-image:url(./background2.png);　//插入背景圖片
+background-color:green;　//綠色背景顏色
+border:1px #ccc solid;
+padding:50px;
+font-weight:600;
+color:black; 
+
+}
+
+#Shaow01{
+ display:inline-block;
+	box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-right:20px;
+    box-shadow:3px 3px 9px white;
+}
+
+
+
+.style13 {font-size: 18px}
+.style17 {color: #000000}
+.style18 {color: #663366;
+	font-weight: bold;}
+
+.style21 {	font-size: x-large;
+	font-weight: bold;
+	color: #663366;
+}
+.style23 {font-size: x-large; font-weight: bold; color: #003399; }
+.style25 {font-size: 16px}
+.style1 {	font-size: 12pt;
+	font-weight: bold;
+
+}
+
+
+#img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;	
+}
+
+
+
+
+
+@media screen and (max-width:1600px){.codrops-top{padding: 0 0 0 0px;}}
